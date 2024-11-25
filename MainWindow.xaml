@@ -1,0 +1,44 @@
+﻿<Window x:Class="Laba16.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba16"
+        mc:Ignorable="d"
+        Title="Laba16" Height="200" Width="400">
+    <Window.Resources>
+        <local:SqrRootsMultiValueConverter x:Key="SqrRootsConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center" MaxWidth="200">
+            <DockPanel>
+                <Label Content="a:" VerticalAlignment="Center" Padding="6,3"/>
+                <TextBox Name="textBoxA" VerticalAlignment="Center"/>
+            </DockPanel>
+            <DockPanel >
+                <Label Content="b:" VerticalAlignment="Center" Padding="5.6,3"/>
+                <TextBox Name="textBoxB" VerticalAlignment="Center"/>
+            </DockPanel>
+            <DockPanel >
+                <Label Content="c: " VerticalAlignment="Center" Padding="4.7,3"/>
+                <TextBox Name="textBoxC" VerticalAlignment="Center"/>
+            </DockPanel>
+        </StackPanel>
+        <TextBlock Name="labelResult" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock.Text>
+                <MultiBinding Converter="{StaticResource SqrRootsConverter}">
+                    <Binding ElementName="textBoxA" Path="Text"/>
+                    <Binding ElementName="textBoxB" Path="Text"/>
+                    <Binding ElementName="textBoxC" Path="Text"/>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+    </Grid>
+</Window>

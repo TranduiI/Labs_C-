@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11a55258-538e-4d6d-ad8c-b58d45db881e": {
+      "ProjectGuid": "11a55258-538e-4d6d-ad8c-b58d45db881e",
+      "DisplayName": "Laba16",
+      "ColorIndex": 0
+    },
+    "7be88c89-35e9-41f1-a779-30e7e77850b5": {
+      "ProjectGuid": "7be88c89-35e9-41f1-a779-30e7e77850b5",
+      "DisplayName": "UTRootsCalc",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "260146a4-8ead-4f78-a17f-8c72930617df": {
+      "ProjectGuid": "260146a4-8ead-4f78-a17f-8c72930617df",
+      "DisplayName": "TestProject",
+      "ColorIndex": 2
+    },
+    "eeabbefd-e765-49f6-b97c-763e68a9a6fb": {
+      "ProjectGuid": "eeabbefd-e765-49f6-b97c-763e68a9a6fb",
+      "DisplayName": "TestProj",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
