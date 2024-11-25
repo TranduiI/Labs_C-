@@ -1,0 +1,43 @@
+﻿<Window x:Class="Laba15_A.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba15_A"
+        mc:Ignorable="d"
+        Title="Laba15_A" Height="400" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Постащик:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox Name="textBoxProvider" Width="300" TextChanged="TextBoxProvider_TextChanged" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center"/>
+        <Label Content="Покупатель:" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"/>
+        <TextBox Name="textBoxClient" Width="300" TextChanged="TextBoxClient_TextChanged" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"/>
+
+        <Label Name="labelNum" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Заказ №"/>
+        <Label Name="labelDate" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Content=""/>
+        <DataGrid Name="dataGridOrder" Grid.Row="2" ItemsSource="{Binding Path=OrderDatas}" AutoGenerateColumns="False" CanUserAddRows="True" CanUserDeleteRows="True" IsSynchronizedWithCurrentItem="True" SelectionUnit="Cell" SelectionMode="Single" CellEditEnding="CellEditEnd" Grid.Column="0" Grid.ColumnSpan="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Num}" Header="№" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Product}" Header="Товар" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Count}" Header="Количество" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Price}" Header="Цена" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Summ}" Header="Сумма" Width="*" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Grid.Row="3" Content="Итого:" VerticalAlignment="Bottom"/>
+        <Label Name="labelSum" Grid.Row="4" Content="0 руб." FontSize="18" />
+        <Button Grid.Row="5" Grid.Column="1" Content="Сформировать документ" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="10,5" Name="createDocBtn" Click="CreateDocBtn_Click"/>
+    </Grid>
+</Window>
