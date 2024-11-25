@@ -1,0 +1,6 @@
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\bin\Debug\Laba4fixLib.dll
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\bin\Debug\Laba4fixLib.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\obj\Debug\Laba4fixLib.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\obj\Debug\Laba4fixLib.dll
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\obj\Debug\Laba4fixLib.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba4fixLib\obj\Debug\Laba4fixLib.csproj.AssemblyReference.cache
