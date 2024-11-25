@@ -1,0 +1,16 @@
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\bin\Debug\Laba18_Client.exe.config
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\bin\Debug\Laba18_Client.exe
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\bin\Debug\Laba18_Client.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.csproj.AssemblyReference.cache
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\MainWindow.g.cs
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\App.g.cs
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client_MarkupCompile.cache
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client_MarkupCompile.lref
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\MainWindow.baml
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.g.resources
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.Properties.Resources.resources
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.csproj.GenerateResource.cache
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.exe
+C:\Users\TranduilPC\Desktop\C++\Laba18_Client\obj\Debug\Laba18_Client.pdb
