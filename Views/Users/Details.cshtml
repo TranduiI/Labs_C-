@@ -1,0 +1,101 @@
+﻿@model LabASP.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ФИО)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ФИО)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Должность)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Должность)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Дата_рождения)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Дата_рождения)
+        </dd>
+
+    </dl>
+    <table class="table">
+        <tr>
+            <th>
+                Договоры
+            </th>
+            <th>
+                Код Товара
+            </th>
+            <th>
+                ФИО
+            </th>
+            <th>
+                Дата рождения
+            </th>
+            <th>
+                Номер и серия паспорта
+            </th>
+            <th>
+                Адрес
+            </th>
+            <th>
+                Номер
+            </th>
+            <th>
+                Дата составления
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Agreements)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Номер_договора)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Код_товара)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ФИО)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Дата_рождения)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Номер_и_серия_паспорта)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Адрес)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Номер)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Дата_составления)
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_пользователя }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

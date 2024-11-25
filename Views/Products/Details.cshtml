@@ -1,0 +1,50 @@
+﻿@model LabASP.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Наименование_)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Наименование_)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Фотография)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Фотография)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Стоимость)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Стоимость)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status.Статус)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status.Статус)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Код_товара }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

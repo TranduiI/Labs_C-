@@ -1,0 +1,30 @@
+﻿@model IEnumerable<LabASP.ViewModels.AgreementPerDate>
+
+@{
+    ViewBag.Title = "Статистика по договорам";
+}
+
+<h2>Статистика по договорам</h2>
+
+<table>
+    <tr>
+        <th>
+            Дата составления договора
+        </th>
+        <th>
+            Количество договоров
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @item.AgreementCount
+            </td>
+        </tr>
+    }
+</table>

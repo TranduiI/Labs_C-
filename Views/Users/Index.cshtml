@@ -1,0 +1,55 @@
+﻿@model IEnumerable<LabASP.Models.User>
+
+@{
+    ViewBag.Title = "Список пользователей";
+}
+
+<h2>Список пользователей</h2>
+
+<p>
+    @Html.ActionLink("Создать", "Create")
+</p>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Поиск по ФИО: @Html.TextBox("SearchString")
+        <input type="submit" value="Поиск" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("ФИО", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Должность", "Index", new { sortOrder = ViewBag.PostSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Дата рождения", "Index", new { sortOrder = ViewBag.DateSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ФИО)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Должность)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Дата_рождения)
+            </td>
+            <td>
+                @Html.ActionLink("Изменить", "Edit", new { id = item.ID_пользователя }) |
+                @Html.ActionLink("Детали", "Details", new { id = item.ID_пользователя }) |
+                @Html.ActionLink("Удалить", "Delete", new { id = item.ID_пользователя })
+            </td>
+        </tr>
+    }
+
+</table>

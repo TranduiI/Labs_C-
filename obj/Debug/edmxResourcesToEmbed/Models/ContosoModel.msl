@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ContosoUniversityDataModelContainer" CdmEntityContainer="ContosoUniversityDataEntities2">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="ContosoUniversityDataModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="Номер_аккаунта" ColumnName="Номер аккаунта" />
+          <ScalarProperty Name="ID_пользователя" ColumnName="ID пользователя" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+          <ScalarProperty Name="Уровень_доступа" ColumnName="Уровень доступа" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agreements">
+      <EntityTypeMapping TypeName="ContosoUniversityDataModel.Agreement">
+        <MappingFragment StoreEntitySet="Agreement">
+          <ScalarProperty Name="Номер_договора" ColumnName="Номер договора" />
+          <ScalarProperty Name="ID_пользователя" ColumnName="ID пользователя" />
+          <ScalarProperty Name="Код_товара" ColumnName="Код товара" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата рождения" />
+          <ScalarProperty Name="Номер_и_серия_паспорта" ColumnName="Номер и серия паспорта" />
+          <ScalarProperty Name="Адрес" ColumnName="Адрес" />
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Дата_составления" ColumnName="Дата составления" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="ContosoUniversityDataModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Код_товара" ColumnName="Код товара" />
+          <ScalarProperty Name="Наименование_" ColumnName="Наименование " />
+          <ScalarProperty Name="Фотография" ColumnName="Фотография" />
+          <ScalarProperty Name="Стоимость" ColumnName="Стоимость" />
+          <ScalarProperty Name="Код_статуса" ColumnName="Код статуса" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="ContosoUniversityDataModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Код_статуса" ColumnName="Код статуса" />
+          <ScalarProperty Name="Статус" ColumnName="Статус" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ContosoUniversityDataModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID_пользователя" ColumnName="ID пользователя" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Должность" ColumnName="Должность" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата рождения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

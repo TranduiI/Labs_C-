@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "c50d5c38-7790-4e2e-942b-c8dbc8b62d7b": {
+      "ProjectGuid": "c50d5c38-7790-4e2e-942b-c8dbc8b62d7b",
+      "DisplayName": "LabASP",
+      "ColorIndex": 0
+    },
+    "abc876e9-8db3-4ce2-8007-ab6b283f36e9": {
+      "ProjectGuid": "abc876e9-8db3-4ce2-8007-ab6b283f36e9",
+      "DisplayName": "DAL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

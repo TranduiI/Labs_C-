@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ContosoUniversityDataModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Номер аккаунта" />
+    </Key>
+    <Property Name="Номер аккаунта" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID пользователя" Type="int" Nullable="false" />
+    <Property Name="Логин" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Пароль" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Уровень доступа" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Agreement">
+    <Key>
+      <PropertyRef Name="Номер договора" />
+    </Key>
+    <Property Name="Номер договора" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID пользователя" Type="int" Nullable="false" />
+    <Property Name="Код товара" Type="int" Nullable="false" />
+    <Property Name="ФИО" Type="nvarchar" MaxLength="35" />
+    <Property Name="Дата рождения" Type="date" />
+    <Property Name="Номер и серия паспорта" Type="int" />
+    <Property Name="Адрес" Type="nvarchar" MaxLength="50" />
+    <Property Name="Номер" Type="char" MaxLength="12" />
+    <Property Name="Дата составления" Type="date" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Код товара" />
+    </Key>
+    <Property Name="Код товара" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Наименование " Type="nvarchar" MaxLength="50" />
+    <Property Name="Фотография" Type="image" />
+    <Property Name="Стоимость" Type="float" />
+    <Property Name="Код статуса" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Код статуса" />
+    </Key>
+    <Property Name="Код статуса" Type="int" Nullable="false" />
+    <Property Name="Статус" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID пользователя" />
+    </Key>
+    <Property Name="ID пользователя" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ФИО" Type="nvarchar" MaxLength="35" />
+    <Property Name="Должность" Type="nvarchar" MaxLength="50" />
+    <Property Name="Дата рождения" Type="date" />
+  </EntityType>
+  <Association Name="FK__Account__ID поль__412EB0B6">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID пользователя" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="ID пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Agreement__ID по__4222D4EF">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Agreement" Type="Self.Agreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID пользователя" />
+      </Principal>
+      <Dependent Role="Agreement">
+        <PropertyRef Name="ID пользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Agreement__Код т__4316F928">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Agreement" Type="Self.Agreement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Код товара" />
+      </Principal>
+      <Dependent Role="Agreement">
+        <PropertyRef Name="Код товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Код ста__440B1D61">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Код статуса" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Код статуса" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ContosoUniversityDataModelContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Agreement" EntityType="Self.Agreement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Account__ID поль__412EB0B6" Association="Self.FK__Account__ID поль__412EB0B6">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Agreement__ID по__4222D4EF" Association="Self.FK__Agreement__ID по__4222D4EF">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Agreement" EntitySet="Agreement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Agreement__Код т__4316F928" Association="Self.FK__Agreement__Код т__4316F928">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="Agreement" EntitySet="Agreement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Код ста__440B1D61" Association="Self.FK__Product__Код ста__440B1D61">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
