@@ -1,0 +1,29 @@
+﻿<Window x:Class="Lab5B.BuldingShowBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5B"
+        mc:Ignorable="d"
+        Title="BuldingShowBox" Height="100" Width="200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Label Name="labelCountFloors" Content="Введите количество этажей!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <TextBox Name="labelCountFloorsText" HorizontalAlignment="Center" VerticalAlignment="Center" Width="160"/>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Button Name="labelCountFloorsButton" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Center" Width="160" Click="labelCountFloorsButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
