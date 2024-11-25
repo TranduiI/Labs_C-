@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c245471c-a56f-42e9-99c6-71f4a533a556": {
+      "ProjectGuid": "c245471c-a56f-42e9-99c6-71f4a533a556",
+      "DisplayName": "Figure",
+      "ColorIndex": 0
+    },
+    "e2ce6f26-fca0-4ae6-99d2-8927f966932e": {
+      "ProjectGuid": "e2ce6f26-fca0-4ae6-99d2-8927f966932e",
+      "DisplayName": "FigureTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

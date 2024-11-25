@@ -1,0 +1,14 @@
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\Figure.exe
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\Figure.deps.json
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\Figure.runtimeconfig.json
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\Figure.dll
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\ref\Figure.dll
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\bin\Debug\net6.0\Figure.pdb
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.AssemblyInfoInputs.cache
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.AssemblyInfo.cs
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.dll
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\ref\Figure.dll
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.pdb
+C:\Users\TranduilPC\Desktop\C++\AreaPerim\obj\Debug\net6.0\Figure.genruntimeconfig.cache
