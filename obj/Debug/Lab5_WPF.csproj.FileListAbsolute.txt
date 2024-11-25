@@ -1,0 +1,16 @@
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\bin\Debug\Lab6_WPF.exe.config
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\bin\Debug\Lab6_WPF.exe
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\bin\Debug\Lab6_WPF.pdb
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab5_WPF.csproj.AssemblyReference.cache
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab5_WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\App.g.cs
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF_MarkupCompile.cache
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF_MarkupCompile.lref
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\MainWindow.baml
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF.g.resources
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF.Properties.Resources.resources
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab5_WPF.csproj.GenerateResource.cache
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab5_WPF.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF.exe
+C:\Users\TranduilPC\Desktop\C++\Lab6_WPF\obj\Debug\Lab6_WPF.pdb

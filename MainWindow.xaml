@@ -1,0 +1,110 @@
+﻿<Window x:Class="Lab5_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6_WPF"
+        mc:Ignorable="d"
+        Title="Кофе машина"
+        Height="430" Width="982">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="803*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="138*"/>
+            <RowDefinition Height="238*"/>
+            <RowDefinition Height="39*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox Name="textBoxMoney" Grid.Column="1" Grid.Row="1" KeyDown="TextBoxMoney_KeyDown"/>
+            <Button Name="buttonAddMoney" Grid.Column="1" Grid.Row="3" Content="Внести деньги" Click="ButtonAddMoney_Click"/>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="0" Margin="43,0,0,237" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="162*"/>
+                <ColumnDefinition Width="209*"/>
+                <ColumnDefinition Width="371*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="1" Content="Внесенная сумма: " Margin="0,0,0,10" Grid.RowSpan="2"/>
+            <Label Grid.Column="0" Grid.Row="2" Content="Цена&#xD;&#xA;" Margin="0,10,0,10" Grid.RowSpan="3"/>
+            <Label Grid.Column="0" Grid.Row="5" Content="Сдача&#xD;&#xA;: " Margin="0,0,0,5" Grid.RowSpan="2"/>
+            <Label Name="labelSum" Grid.Row="1" Content="0" Margin="162,0,0,10" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Label Name="labelPrice" Grid.Row="2" Content="0" Margin="162,10,0,10" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+            <Label Name="labelChange" Grid.Row="5" Content="0" Margin="162,0,0,10" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        </Grid>
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="0,138,0,0" Grid.RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <RadioButton Name="radioButtonAmericano" Grid.Column="1" Grid.Row="1" Content="Американо" IsChecked="True" Click="RadioButtonAmericano_Click"/>
+            <RadioButton Name="radioButtonCappuchino" Grid.Column="1" Grid.Row="3" Content="Капучино" Click="RadioButtonCappuchino_Click"/>
+            <RadioButton Name="radioButtonEspresso" Grid.Column="1" Grid.Row="5" Content="Эспрессо" Click="RadioButtonEspresso_Click"/>
+            <RadioButton Name="radioButtonCocoa" Grid.Column="1" Grid.Row="7" Content="Какао" Click="RadioButtonCocoa_Click"/>
+            <CheckBox Name="checkBoxSugar" Grid.Column="3" Grid.Row="1" Content="Сахар" IsChecked="True" Click="CheckBoxSugar_Click"/>
+            <CheckBox Name="checkBoxMilk" Grid.Column="3" Grid.Row="3" Content="Молоко" IsChecked="True" Click="CheckBoxMilk_Click"/>
+            <Button Name="buttonOK" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="3" Content="OK" Click="ButtonOK_Click"/>
+        </Grid>
+        <Grid Grid.Column="2" Margin="0,138,0,0" Grid.RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Image Name="ImageCoffee" Grid.Column="1" Grid.Row="1" Source="pack://siteoforigin:,,,/Images/americano.jpg"/>
+            <Image Name="ImageMilk" Grid.Column="2" Source="pack://siteoforigin:,,,/Images/milk.png" Stretch="Fill" Grid.ColumnSpan="3" Margin="10,10,-21,10" Grid.RowSpan="3"/>
+            <Image Name="ImageSugar" Grid.Column="1" Grid.Row="2" Source="pack://siteoforigin:,,,/Images/sugar.png" Stretch="Fill" Margin="111,5,86,5" Grid.RowSpan="3"/>
+
+        </Grid>
+    </Grid>
+</Window>
+
