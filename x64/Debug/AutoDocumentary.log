@@ -1,0 +1,4 @@
+﻿  AutoDocumentary.cpp
+C:\Users\TranduilPC\Desktop\C++\AutoDocumentary\AutoDocumentary.cpp(21): warning C4638: Комментарий XML-документа  применен к "WorkingPlace.SetDaysWithoutProblems(System.Int32)": ссылка на неизвестный символ "System::Security::PermissionSet".
+  AutoDocumentary.vcxproj -> C:\Users\TranduilPC\Desktop\C++\AutoDocumentary\x64\Debug\AutoDocumentary.exe
+XMLDocs : warning XDC0006: file(s) not found
