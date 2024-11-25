@@ -1,0 +1,63 @@
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.Form1.resources
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.exe.config
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.exe
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.pdb
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.exe
+E:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.pdb
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.exe.config
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.exe
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\bin\Debug\Laba1.pdb
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.AssemblyReference.cache
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.SuggestedBindingRedirects.cache
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.Form1.resources
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.exe
+D:\Практика 2-й курс 22919 11\Тема1\Laba1\Laba1\obj\Debug\Laba1.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\bin\Debug\Laba1.exe
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\bin\Debug\Laba1.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.csproj.AssemblyReference.cache
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.csproj.SuggestedBindingRedirects.cache
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.Form1.resources
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.exe
+C:\Users\TranduilPC\Desktop\C++\Laba1\Laba1\obj\Debug\Laba1.pdb
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.exe
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba1.pdb
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\bin\Debug\Laba1.exe.config
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\bin\Debug\Laba1.exe
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\bin\Debug\Laba1.pdb
+E:\Практика 2-й курс 22919 11\Laba2\Laba1\obj\Debug\Laba2.Form1.resources
+H:\Laba2\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+H:\Laba2\Laba1\obj\Debug\Laba2.Form1.resources
+H:\Laba2\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+H:\Laba2\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+H:\Laba2\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+H:\Laba2\Laba1\obj\Debug\Laba1.exe
+H:\Laba2\Laba1\obj\Debug\Laba1.pdb
+H:\Laba2\Laba1\bin\Debug\Laba1.exe.config
+H:\Laba2\Laba1\bin\Debug\Laba1.exe
+H:\Laba2\Laba1\bin\Debug\Laba1.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\bin\Debug\Laba1.exe
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\bin\Debug\Laba1.pdb
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.csproj.AssemblyReference.cache
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.csproj.SuggestedBindingRedirects.cache
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba2.Form1.resources
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.exe
+C:\Users\TranduilPC\Desktop\C++\Laba2\Laba1\obj\Debug\Laba1.pdb
